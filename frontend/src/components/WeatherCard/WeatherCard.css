@@ -1,0 +1,20 @@
+.weather-card {
+	width: 200px;
+	height: 300px;
+	/* display: flex; */
+	background-color: rgb(54, 103, 227);
+	border-radius: 10px;
+}
+
+.weather-card__container {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	/* color: rgba(0, 0, 0, 0.8); */
+	color: white;
+}
+
+.weather-icon {
+	width: 50px;
+	height: 50px;
+}

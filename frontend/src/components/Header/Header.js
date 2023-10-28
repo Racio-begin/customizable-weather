@@ -2,8 +2,10 @@ import './Header.css';
 
 function Header() {
 	return (
-		<p>HEADER</p>
-	)
+		<header className="header">
+			HEADER
+		</header>
+	);
 };
 
 export default Header;

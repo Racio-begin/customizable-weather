@@ -2,8 +2,10 @@ import './Footer.css';
 
 function Footer() {
 	return (
-		<p>FOOTER</p>
-	)
+		<footer className="footer">
+			FOOTER
+		</footer>
+	);
 };
 
 export default Footer;

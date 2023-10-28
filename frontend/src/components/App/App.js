@@ -5,6 +5,8 @@ import {
 
 import Main from "../Main/Main";
 
+import './App.css';
+
 function App() {
 	return (
 		<div className="app">
@@ -16,6 +18,6 @@ function App() {
 			</Routes>
 		</div>
 	)
-}
+};
 
 export default App;
