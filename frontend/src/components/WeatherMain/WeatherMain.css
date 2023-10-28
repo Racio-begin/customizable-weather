@@ -1,0 +1,27 @@
+.weather-main {
+	min-height: 200px;
+	display: flex;
+	margin: 20px 100px 20px;
+	background-color: rgb(33, 151, 151);
+	color: #fff;
+}
+
+.weather-main__container {
+	max-width: 1000px;
+}
+
+.weather-main__main-info {
+	/* display: flex; */
+
+}
+
+.weather-main__main-info_temp {
+	display: flex;
+	justify-content: space-between;
+}
+
+.weather-main__additional-info {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}

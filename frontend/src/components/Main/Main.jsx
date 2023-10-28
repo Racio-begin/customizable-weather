@@ -6,6 +6,7 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import WeatherCard from '../WeatherCard/WeatherCard';
 import WeatherCardList from '../WeatherCardList/WeatherCardList';
+import WeatherMain from '../WeatherMain/WeatherMain';
 
 import API_KEY from '../../utils/API_KEY';
 
@@ -38,6 +39,8 @@ function Main() {
 			))} */}
 
 			{/* <WeatherCard /> */}
+
+			<WeatherMain />
 
 			<WeatherCardList />
 

@@ -1,4 +1,10 @@
 html,
 body {
 	height: 100%;
+	background-color: #202020;
+}
+
+/* Красная обводка для отладки */
+* {
+	border: 1px solid red;
 }
