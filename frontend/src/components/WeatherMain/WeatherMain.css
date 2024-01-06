@@ -12,7 +12,7 @@
 
 .weather-main__main-info {
 	/* display: flex; */
-
+	width: 250px;
 }
 
 .weather-main__main-info_temp {

@@ -1,6 +1,7 @@
 import logo from '../../images/logo.png';
 
 import './Header.css';
+import Navbar from '../Navbar/Navbar';
 
 function Header() {
 	return (
@@ -12,7 +13,7 @@ function Header() {
 				src={logo}
 				alt="Логотип сайта"
 			/>
-			HEADER
+			<Navbar></Navbar>
 		</header>
 	);
 };
